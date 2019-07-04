@@ -1,0 +1,7 @@
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/install/strip.dir
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/edit_cache.dir
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/qplus.dir
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/rebuild_cache.dir
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/list_install_components.dir
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/install/local.dir
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build/CMakeFiles/install.dir

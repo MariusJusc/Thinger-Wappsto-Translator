@@ -1,0 +1,1260 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/spdlog/common.h
+string
+-
+initializer_list
+-
+chrono
+-
+memory
+-
+atomic
+-
+exception
+-
+functional
+-
+codecvt
+-
+locale
+-
+spdlog/details/null_mutex.h
+../src/spdlog/spdlog/details/null_mutex.h
+spdlog/fmt/fmt.h
+../src/spdlog/spdlog/fmt/fmt.h
+
+../src/spdlog/details/async_log_helper.h
+spdlog/common.h
+../src/spdlog/details/spdlog/common.h
+spdlog/sinks/sink.h
+../src/spdlog/details/spdlog/sinks/sink.h
+spdlog/details/mpmc_bounded_q.h
+../src/spdlog/details/spdlog/details/mpmc_bounded_q.h
+spdlog/details/log_msg.h
+../src/spdlog/details/spdlog/details/log_msg.h
+spdlog/details/os.h
+../src/spdlog/details/spdlog/details/os.h
+spdlog/formatter.h
+../src/spdlog/details/spdlog/formatter.h
+chrono
+-
+exception
+-
+functional
+-
+memory
+-
+string
+-
+thread
+-
+utility
+-
+vector
+-
+
+../src/spdlog/details/async_logger_impl.h
+spdlog/details/async_log_helper.h
+../src/spdlog/details/spdlog/details/async_log_helper.h
+spdlog/async_logger.h
+../src/spdlog/details/spdlog/async_logger.h
+string
+-
+functional
+-
+chrono
+-
+memory
+-
+
+../src/spdlog/details/file_helper.h
+spdlog/details/os.h
+../src/spdlog/details/spdlog/details/os.h
+spdlog/details/log_msg.h
+../src/spdlog/details/spdlog/details/log_msg.h
+chrono
+-
+cstdio
+-
+string
+-
+thread
+-
+cerrno
+-
+
+../src/spdlog/details/log_msg.h
+spdlog/common.h
+../src/spdlog/details/spdlog/common.h
+spdlog/details/os.h
+../src/spdlog/details/spdlog/details/os.h
+string
+-
+utility
+-
+
+../src/spdlog/details/logger_impl.h
+spdlog/logger.h
+../src/spdlog/details/spdlog/logger.h
+spdlog/sinks/stdout_sinks.h
+../src/spdlog/details/spdlog/sinks/stdout_sinks.h
+memory
+-
+string
+-
+codecvt
+-
+
+../src/spdlog/details/mpmc_bounded_q.h
+spdlog/common.h
+../src/spdlog/details/spdlog/common.h
+atomic
+-
+utility
+-
+
+../src/spdlog/details/null_mutex.h
+atomic
+-
+
+../src/spdlog/details/os.h
+spdlog/common.h
+../src/spdlog/details/spdlog/common.h
+cstdio
+-
+ctime
+-
+functional
+-
+string
+-
+chrono
+-
+thread
+-
+algorithm
+-
+cstring
+-
+cstdlib
+-
+sys/stat.h
+-
+sys/types.h
+-
+windows.h
+-
+process.h
+-
+io.h
+-
+share.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/syscall.h
+-
+sys/thr.h
+-
+
+../src/spdlog/details/pattern_formatter_impl.h
+spdlog/formatter.h
+../src/spdlog/details/spdlog/formatter.h
+spdlog/details/log_msg.h
+../src/spdlog/details/spdlog/details/log_msg.h
+spdlog/details/os.h
+../src/spdlog/details/spdlog/details/os.h
+spdlog/fmt/fmt.h
+../src/spdlog/details/spdlog/fmt/fmt.h
+chrono
+-
+ctime
+-
+memory
+-
+mutex
+-
+string
+-
+thread
+-
+utility
+-
+vector
+-
+array
+-
+
+../src/spdlog/details/registry.h
+spdlog/details/null_mutex.h
+../src/spdlog/details/spdlog/details/null_mutex.h
+spdlog/logger.h
+../src/spdlog/details/spdlog/logger.h
+spdlog/async_logger.h
+../src/spdlog/details/spdlog/async_logger.h
+spdlog/common.h
+../src/spdlog/details/spdlog/common.h
+chrono
+-
+functional
+-
+memory
+-
+mutex
+-
+string
+-
+unordered_map
+-
+
+../src/spdlog/details/spdlog_impl.h
+spdlog/spdlog.h
+../src/spdlog/details/spdlog/spdlog.h
+spdlog/details/registry.h
+../src/spdlog/details/spdlog/details/registry.h
+spdlog/sinks/file_sinks.h
+../src/spdlog/details/spdlog/sinks/file_sinks.h
+spdlog/sinks/stdout_sinks.h
+../src/spdlog/details/spdlog/sinks/stdout_sinks.h
+spdlog/sinks/syslog_sink.h
+../src/spdlog/details/spdlog/sinks/syslog_sink.h
+spdlog/sinks/wincolor_sink.h
+../src/spdlog/details/spdlog/sinks/wincolor_sink.h
+spdlog/sinks/ansicolor_sink.h
+../src/spdlog/details/spdlog/sinks/ansicolor_sink.h
+spdlog/sinks/android_sink.h
+../src/spdlog/details/spdlog/sinks/android_sink.h
+chrono
+-
+functional
+-
+memory
+-
+string
+-
+
+../src/spdlog/fmt/bundled/format.cc
+format.h
+../src/spdlog/fmt/bundled/format.h
+string.h
+-
+cctype
+-
+cerrno
+-
+climits
+-
+cmath
+-
+cstdarg
+-
+cstddef
+-
+cstring
+-
+windows.h
+-
+windows.h
+-
+
+../src/spdlog/fmt/bundled/format.h
+cassert
+-
+clocale
+-
+cmath
+-
+cstdio
+-
+cstring
+-
+limits
+-
+memory
+-
+stdexcept
+-
+string
+-
+vector
+-
+utility
+-
+iterator
+-
+stdint.h
+-
+utility
+-
+intrin.h
+-
+format.cc
+../src/spdlog/fmt/bundled/format.cc
+
+../src/spdlog/fmt/fmt.h
+spdlog/fmt/bundled/format.h
+../src/spdlog/fmt/spdlog/fmt/bundled/format.h
+fmt/format.h
+-
+
+../src/spdlog/formatter.h
+spdlog/details/log_msg.h
+../src/spdlog/spdlog/details/log_msg.h
+vector
+-
+string
+-
+memory
+-
+spdlog/details/pattern_formatter_impl.h
+../src/spdlog/spdlog/details/pattern_formatter_impl.h
+
+../src/spdlog/logger.h
+spdlog/sinks/base_sink.h
+../src/spdlog/spdlog/sinks/base_sink.h
+spdlog/common.h
+../src/spdlog/spdlog/common.h
+vector
+-
+memory
+-
+string
+-
+spdlog/details/logger_impl.h
+../src/spdlog/spdlog/details/logger_impl.h
+
+../src/spdlog/sinks/android_sink.h
+spdlog/sinks/sink.h
+../src/spdlog/sinks/spdlog/sinks/sink.h
+mutex
+-
+string
+-
+android/log.h
+-
+thread
+-
+chrono
+-
+
+../src/spdlog/sinks/ansicolor_sink.h
+spdlog/sinks/base_sink.h
+../src/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/common.h
+../src/spdlog/sinks/spdlog/common.h
+spdlog/details/os.h
+../src/spdlog/sinks/spdlog/details/os.h
+string
+-
+map
+-
+
+../src/spdlog/sinks/base_sink.h
+spdlog/sinks/sink.h
+../src/spdlog/sinks/spdlog/sinks/sink.h
+spdlog/formatter.h
+../src/spdlog/sinks/spdlog/formatter.h
+spdlog/common.h
+../src/spdlog/sinks/spdlog/common.h
+spdlog/details/log_msg.h
+../src/spdlog/sinks/spdlog/details/log_msg.h
+mutex
+-
+
+../src/spdlog/sinks/file_sinks.h
+spdlog/sinks/base_sink.h
+../src/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/details/null_mutex.h
+../src/spdlog/sinks/spdlog/details/null_mutex.h
+spdlog/details/file_helper.h
+../src/spdlog/sinks/spdlog/details/file_helper.h
+spdlog/fmt/fmt.h
+../src/spdlog/sinks/spdlog/fmt/fmt.h
+algorithm
+-
+chrono
+-
+cstdio
+-
+ctime
+-
+mutex
+-
+string
+-
+cerrno
+-
+
+../src/spdlog/sinks/sink.h
+spdlog/details/log_msg.h
+../src/spdlog/sinks/spdlog/details/log_msg.h
+
+../src/spdlog/sinks/stdout_sinks.h
+spdlog/details/null_mutex.h
+../src/spdlog/sinks/spdlog/details/null_mutex.h
+spdlog/sinks/base_sink.h
+../src/spdlog/sinks/spdlog/sinks/base_sink.h
+cstdio
+-
+memory
+-
+mutex
+-
+
+../src/spdlog/sinks/syslog_sink.h
+spdlog/common.h
+../src/spdlog/sinks/spdlog/common.h
+spdlog/sinks/sink.h
+../src/spdlog/sinks/spdlog/sinks/sink.h
+spdlog/details/log_msg.h
+../src/spdlog/sinks/spdlog/details/log_msg.h
+array
+-
+string
+-
+syslog.h
+-
+
+../src/spdlog/sinks/wincolor_sink.h
+spdlog/sinks/base_sink.h
+../src/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/details/null_mutex.h
+../src/spdlog/sinks/spdlog/details/null_mutex.h
+spdlog/common.h
+../src/spdlog/sinks/spdlog/common.h
+mutex
+-
+string
+-
+map
+-
+wincon.h
+-
+
+../src/spdlog/tweakme.h
+
+../src/variant/recursive_wrapper.hpp
+cassert
+-
+utility
+-
+
+../src/variant/variant.hpp
+cassert
+-
+cstddef
+-
+new
+-
+stdexcept
+-
+string
+-
+tuple
+-
+type_traits
+-
+typeinfo
+-
+utility
+-
+functional
+-
+limits
+-
+variant/recursive_wrapper.hpp
+-
+variant/variant_visitor.hpp
+-
+
+../src/variant/variant_visitor.hpp
+utility
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.cpp
+backendsocket.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.hpp
+sslclient.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.hpp
+ventilator.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+dataup.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.hpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.hpp
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+vector
+-
+ev++.h
+-
+sslclient.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.hpp
+configuration.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/client.cpp
+client.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/client.hpp
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+unistd.h
+-
+iostream
+-
+ventilator.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+root.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.hpp
+network.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.hpp
+dataup.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.hpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+list
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/client.hpp
+arpa/inet.h
+-
+ev++.h
+-
+string
+-
+list
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+fstream
+-
+string
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.cpp
+dataup.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.hpp
+ventilator.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+network.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.hpp
+device.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.hpp
+value.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.hpp
+state.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.hpp
+root.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.hpp
+serializer.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+url.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/url.hpp
+regex
+-
+random
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.hpp
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+string
+-
+iostream
+-
+ventilator.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+backendsocket.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.cpp
+device.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.hpp
+network.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+serializer.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+ventilator.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+iostream
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.hpp
+string
+-
+vector
+-
+list
+-
+memory
+-
+value.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.hpp
+status.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/status.hpp
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+string
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+algorithm
+-
+cassert
+-
+ciso646
+-
+cstddef
+-
+functional
+-
+initializer_list
+-
+iosfwd
+-
+iterator
+-
+numeric
+-
+string
+-
+utility
+-
+cstdint
+-
+map
+-
+memory
+-
+string
+-
+vector
+-
+ciso646
+-
+cstddef
+-
+type_traits
+-
+ciso646
+-
+limits
+-
+type_traits
+-
+utility
+-
+type_traits
+-
+exception
+-
+stdexcept
+-
+string
+-
+cstddef
+-
+array
+-
+ciso646
+-
+cstddef
+-
+cstdint
+-
+algorithm
+-
+array
+-
+ciso646
+-
+forward_list
+-
+iterator
+-
+map
+-
+string
+-
+tuple
+-
+type_traits
+-
+unordered_map
+-
+utility
+-
+valarray
+-
+ciso646
+-
+iterator
+-
+tuple
+-
+type_traits
+-
+utility
+-
+valarray
+-
+vector
+-
+cstddef
+-
+string
+-
+iterator
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+istream
+-
+iterator
+-
+memory
+-
+numeric
+-
+string
+-
+type_traits
+-
+utility
+-
+clocale
+-
+cstddef
+-
+cstdlib
+-
+cstdio
+-
+initializer_list
+-
+string
+-
+vector
+-
+cassert
+-
+cmath
+-
+cstdint
+-
+functional
+-
+string
+-
+utility
+-
+cstdint
+-
+utility
+-
+cstddef
+-
+string
+-
+vector
+-
+cstddef
+-
+limits
+-
+ciso646
+-
+iterator
+-
+type_traits
+-
+cstddef
+-
+iterator
+-
+utility
+-
+algorithm
+-
+cstddef
+-
+ios
+-
+iterator
+-
+memory
+-
+ostream
+-
+string
+-
+vector
+-
+algorithm
+-
+array
+-
+cassert
+-
+cmath
+-
+cstddef
+-
+cstdint
+-
+cstdio
+-
+cstring
+-
+iterator
+-
+limits
+-
+string
+-
+utility
+-
+algorithm
+-
+array
+-
+cstdint
+-
+cstring
+-
+limits
+-
+algorithm
+-
+array
+-
+cassert
+-
+ciso646
+-
+clocale
+-
+cmath
+-
+cstddef
+-
+cstdint
+-
+cstdio
+-
+limits
+-
+string
+-
+type_traits
+-
+cassert
+-
+ciso646
+-
+cmath
+-
+cstdint
+-
+cstring
+-
+initializer_list
+-
+utility
+-
+cassert
+-
+numeric
+-
+string
+-
+vector
+-
+utility
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/localsocket.cpp
+localsocket.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/localsocket.hpp
+sys/socket.h
+-
+strings.h
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/localsocket.hpp
+string
+-
+arpa/inet.h
+-
+configuration.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.cpp
+network.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.hpp
+configuration.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+root.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.hpp
+string
+-
+vector
+-
+memory
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+device.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.hpp
+configuration.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.cpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+iostream
+-
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+sys/types.h
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+dirent.h
+-
+string
+-
+vector
+-
+sys/stat.h
+-
+fcntl.h
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.cpp
+root.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.hpp
+string
+-
+vector
+-
+memory
+-
+network.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.hpp
+configuration.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.cpp
+serializer.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+ftw.h
+-
+fts.h
+-
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+string
+-
+fstream
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+stdio.h
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/async_logger.h
+spdlog/common.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/common.h
+spdlog/logger.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/logger.h
+chrono
+-
+functional
+-
+string
+-
+memory
+-
+spdlog/details/async_logger_impl.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/details/async_logger_impl.h
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/ansicolor_sink.h
+spdlog/sinks/base_sink.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/common.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/common.h
+spdlog/details/os.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/details/os.h
+string
+-
+map
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/file_sinks.h
+spdlog/sinks/base_sink.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/details/null_mutex.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/details/null_mutex.h
+spdlog/details/file_helper.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/details/file_helper.h
+spdlog/fmt/fmt.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/spdlog/fmt/fmt.h
+algorithm
+-
+chrono
+-
+cstdio
+-
+ctime
+-
+mutex
+-
+string
+-
+cerrno
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog.h
+spdlog/tweakme.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/tweakme.h
+spdlog/common.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/common.h
+spdlog/logger.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/logger.h
+memory
+-
+functional
+-
+chrono
+-
+string
+-
+spdlog/details/spdlog_impl.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog/details/spdlog_impl.h
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.cpp
+sslclient.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.hpp
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+sys/socket.h
+-
+resolv.h
+-
+netdb.h
+-
+netinet/in.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+iostream
+-
+openssl/bio.h
+-
+openssl/err.h
+-
+openssl/pem.h
+-
+openssl/evp.h
+-
+openssl/x509_vfy.h
+-
+fcntl.h
+-
+linux/tcp.h
+-
+cassert
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.hpp
+string
+-
+functional
+-
+openssl/x509.h
+-
+openssl/ssl.h
+-
+ev++.h
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.cpp
+state.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.hpp
+value.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.hpp
+serializer.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.hpp
+string
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/status.cpp
+status.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/status.hpp
+device.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/status.hpp
+string
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/url.hpp
+variant/variant.hpp
+-
+regex
+-
+string
+-
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.cpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+sstream
+-
+list
+-
+map
+-
+error.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/error.hpp
+chrono
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+string
+-
+vector
+-
+algorithm
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+chrono
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.cpp
+value.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.hpp
+device.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+string
+-
+serializer.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+iostream
+-
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.hpp
+string
+-
+memory
+-
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+state.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.hpp
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.cpp
+ventilator.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+root.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.hpp
+util.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.hpp
+path.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.hpp
+string
+-
+cassert
+-
+dataup.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.hpp
+serializer.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.hpp
+backendsocket.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.hpp
+spdlog/sinks/ansicolor_sink.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/ansicolor_sink.h
+spdlog/sinks/file_sinks.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/sinks/file_sinks.h
+
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.hpp
+configuration.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/configuration.hpp
+localsocket.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/localsocket.hpp
+ev++.h
+-
+client.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/client.hpp
+tuple
+-
+spdlog/spdlog.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/spdlog.h
+spdlog/async_logger.h
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/spdlog/async_logger.h
+json.hpp
+/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/json.hpp
+

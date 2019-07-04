@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/sslclient.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/sslclient.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/localsocket.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/localsocket.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/localsocket.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/client.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/client.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/client.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/state.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/state.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/value.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/value.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/status.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/status.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/status.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/device.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/device.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/network.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/network.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/root.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/root.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/path.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/path.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/serializer.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/serializer.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/dataup.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/dataup.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/util.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/util.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/ventilator.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/ventilator.cpp"
+},
+{
+  "directory": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/build",
+  "command": "/usr/bin/c++  -D_GLIBCXX_USE_C99 -I\"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src\"  -g --std=c++11 -Wno-psabi   -o CMakeFiles/qplus.dir/src/backendsocket.cpp.o -c \"/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.cpp\"",
+  "file": "/home/mariusjusc/Desktop/cpp_proj/Thinger Project/qplus/src/backendsocket.cpp"
+}
+]

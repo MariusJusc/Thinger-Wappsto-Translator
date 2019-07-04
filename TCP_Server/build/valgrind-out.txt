@@ -1,0 +1,246 @@
+==6070== Memcheck, a memory error detector
+==6070== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==6070== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==6070== Command: ./tcp_server
+==6070== Parent PID: 2845
+==6070== 
+--6070-- 
+--6070-- Valgrind options:
+--6070--    --leak-check=full
+--6070--    --show-leak-kinds=all
+--6070--    --track-origins=yes
+--6070--    --verbose
+--6070--    --log-file=valgrind-out.txt
+--6070-- Contents of /proc/version:
+--6070--   Linux version 4.15.0-48-generic (buildd@lgw01-amd64-036) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+--6070-- 
+--6070-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3-avx-avx2
+--6070-- Page sizes: currently 4096, max supported 4096
+--6070-- Valgrind library directory: /usr/lib/valgrind
+--6070-- Reading syms from /home/mariusjusc/Desktop/cpp_proj/Thinger Project/TCP_Server/build/tcp_server
+--6070-- Reading syms from /lib/x86_64-linux-gnu/ld-2.27.so
+--6070--   Considering /lib/x86_64-linux-gnu/ld-2.27.so ..
+--6070--   .. CRC mismatch (computed 1b7c895e wanted 2943108a)
+--6070--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/ld-2.27.so ..
+--6070--   .. CRC is valid
+--6070-- Reading syms from /usr/lib/valgrind/memcheck-amd64-linux
+--6070--   Considering /usr/lib/valgrind/memcheck-amd64-linux ..
+--6070--   .. CRC mismatch (computed c25f395c wanted 0a9602a8)
+--6070--    object doesn't have a symbol table
+--6070--    object doesn't have a dynamic symbol table
+--6070-- Scheduler: using generic scheduler lock implementation.
+--6070-- Reading suppressions file: /usr/lib/valgrind/default.supp
+==6070== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-6070-by-mariusjusc-on-???
+==6070== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-6070-by-mariusjusc-on-???
+==6070== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-6070-by-mariusjusc-on-???
+==6070== 
+==6070== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==6070== don't want to do, unless you know exactly what you're doing,
+==6070== or are doing some strange experiment):
+==6070==   /usr/lib/valgrind/../../bin/vgdb --pid=6070 ...command...
+==6070== 
+==6070== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==6070==   /path/to/gdb ./tcp_server
+==6070== and then give GDB the following command
+==6070==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=6070
+==6070== --pid is optional if only one valgrind process is running
+==6070== 
+--6070-- REDIR: 0x401f2f0 (ld-linux-x86-64.so.2:strlen) redirected to 0x58060901 (???)
+--6070-- REDIR: 0x401f0d0 (ld-linux-x86-64.so.2:index) redirected to 0x5806091b (???)
+--6070-- Reading syms from /usr/lib/valgrind/vgpreload_core-amd64-linux.so
+--6070--   Considering /usr/lib/valgrind/vgpreload_core-amd64-linux.so ..
+--6070--   .. CRC mismatch (computed 4b63d83e wanted 670599e6)
+--6070--    object doesn't have a symbol table
+--6070-- Reading syms from /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so
+--6070--   Considering /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so ..
+--6070--   .. CRC mismatch (computed a4b37bee wanted 8ad4dc94)
+--6070--    object doesn't have a symbol table
+==6070== WARNING: new redirection conflicts with existing -- ignoring it
+--6070--     old: 0x0401f2f0 (strlen              ) R-> (0000.0) 0x58060901 ???
+--6070--     new: 0x0401f2f0 (strlen              ) R-> (2007.0) 0x04c32db0 strlen
+--6070-- REDIR: 0x401d360 (ld-linux-x86-64.so.2:strcmp) redirected to 0x4c33ee0 (strcmp)
+--6070-- REDIR: 0x401f830 (ld-linux-x86-64.so.2:mempcpy) redirected to 0x4c374f0 (mempcpy)
+--6070-- Reading syms from /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+--6070--    object doesn't have a symbol table
+--6070-- Reading syms from /lib/x86_64-linux-gnu/libgcc_s.so.1
+--6070--    object doesn't have a symbol table
+--6070-- Reading syms from /lib/x86_64-linux-gnu/libc-2.27.so
+--6070--   Considering /lib/x86_64-linux-gnu/libc-2.27.so ..
+--6070--   .. CRC mismatch (computed b1c74187 wanted 042cc048)
+--6070--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.27.so ..
+--6070--   .. CRC is valid
+--6070-- Reading syms from /lib/x86_64-linux-gnu/libm-2.27.so
+--6070--   Considering /lib/x86_64-linux-gnu/libm-2.27.so ..
+--6070--   .. CRC mismatch (computed 7feae033 wanted b29b2508)
+--6070--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libm-2.27.so ..
+--6070--   .. CRC is valid
+--6070-- REDIR: 0x547bc70 (libc.so.6:memmove) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547ad40 (libc.so.6:strncpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bf50 (libc.so.6:strcasecmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547a790 (libc.so.6:strcat) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547ad70 (libc.so.6:rindex) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547d7c0 (libc.so.6:rawmemchr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bde0 (libc.so.6:mempcpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bc10 (libc.so.6:bcmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547ad00 (libc.so.6:strncmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547a800 (libc.so.6:strcmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bd40 (libc.so.6:memset) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x54990f0 (libc.so.6:wcschr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547aca0 (libc.so.6:strnlen) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547a870 (libc.so.6:strcspn) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bfa0 (libc.so.6:strncasecmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547a840 (libc.so.6:strcpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547c0e0 (libc.so.6:memcpy@@GLIBC_2.14) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547ada0 (libc.so.6:strpbrk) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547a7c0 (libc.so.6:index) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547ac70 (libc.so.6:strlen) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x54856c0 (libc.so.6:memrchr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bff0 (libc.so.6:strcasecmp_l) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bbe0 (libc.so.6:memchr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x5499eb0 (libc.so.6:wcslen) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547b050 (libc.so.6:strspn) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bf20 (libc.so.6:stpncpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547bef0 (libc.so.6:stpcpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547d7f0 (libc.so.6:strchrnul) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x547c040 (libc.so.6:strncasecmp_l) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--6070-- REDIR: 0x556b3c0 (libc.so.6:__strrchr_avx2) redirected to 0x4c32730 (rindex)
+--6070-- REDIR: 0x5474070 (libc.so.6:malloc) redirected to 0x4c2faa0 (malloc)
+--6070-- REDIR: 0x556b590 (libc.so.6:__strlen_avx2) redirected to 0x4c32cf0 (strlen)
+--6070-- REDIR: 0x5567ba0 (libc.so.6:__memcmp_avx2_movbe) redirected to 0x4c35e00 (bcmp)
+--6070-- REDIR: 0x5546d60 (libc.so.6:__strcmp_ssse3) redirected to 0x4c33da0 (strcmp)
+--6070-- REDIR: 0x556bf50 (libc.so.6:__memset_avx2_unaligned_erms) redirected to 0x4c365d0 (memset)
+--6070-- REDIR: 0x556bab0 (libc.so.6:__mempcpy_avx_unaligned_erms) redirected to 0x4c37130 (mempcpy)
+--6070-- REDIR: 0x556b1d0 (libc.so.6:__strchrnul_avx2) redirected to 0x4c37020 (strchrnul)
+--6070-- REDIR: 0x5558950 (libc.so.6:__strcpy_ssse3) redirected to 0x4c32dd0 (strcpy)
+--6070-- REDIR: 0x5475c30 (libc.so.6:realloc) redirected to 0x4c31cb0 (realloc)
+--6070-- REDIR: 0x556bad0 (libc.so.6:__memcpy_avx_unaligned_erms) redirected to 0x4c366e0 (memmove)
+--6070-- REDIR: 0x5474950 (libc.so.6:free) redirected to 0x4c30cd0 (free)
+--6070-- REDIR: 0x4ecf240 (libstdc++.so.6:operator new(unsigned long)) redirected to 0x4c30110 (operator new(unsigned long))
+--6070-- REDIR: 0x4ecd380 (libstdc++.so.6:operator delete(void*)) redirected to 0x4c311d0 (operator delete(void*))
+==6070== Invalid free() / delete / delete[] / realloc()
+==6070==    at 0x4C30D3B: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x110A4F: protoson::dynamic_memory_allocator::deallocate(void*) (pson.h:73)
+==6070==    by 0x110B6A: protoson::pson::~pson() (pson.h:298)
+==6070==    by 0x110E16: protoson::pson_pair::~pson_pair() (pson.h:570)
+==6070==    by 0x1162C7: protoson::pson_container<protoson::pson_pair>::list_item::~list_item() (pson.h:112)
+==6070==    by 0x1162ED: void destroy<protoson::pson_container<protoson::pson_pair>::list_item>(protoson::pson_container<protoson::pson_pair>::list_item*, protoson::memory_allocator&) (pson.h:94)
+==6070==    by 0x115E39: protoson::pson_container<protoson::pson_pair>::clear() (pson.h:189)
+==6070==    by 0x11558D: protoson::pson_container<protoson::pson_pair>::~pson_container() (pson.h:159)
+==6070==    by 0x115279: protoson::pson_object::~pson_object() (pson.h:593)
+==6070==    by 0x11529F: void destroy<protoson::pson_object>(protoson::pson_object*, protoson::memory_allocator&) (pson.h:94)
+==6070==    by 0x110B1A: protoson::pson::~pson() (pson.h:294)
+==6070==    by 0x110E16: protoson::pson_pair::~pson_pair() (pson.h:570)
+==6070==  Address 0x5b7ebf0 is 0 bytes inside a block of size 1 free'd
+==6070==    at 0x4C30D3B: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x110A4F: protoson::dynamic_memory_allocator::deallocate(void*) (pson.h:73)
+==6070==    by 0x110B6A: protoson::pson::~pson() (pson.h:298)
+==6070==    by 0x11337F: thinger::thinger_controller::fill_stream(protoson::pson_object&, thinger_stream&) (thinger_controller.h:105)
+==6070==    by 0x11353F: thinger::thinger_controller::request_client_resources(thinger::thinger_message&, peer&) (thinger_controller.h:133)
+==6070==    by 0x1139D4: thinger::thinger_controller::handle_data_received(thinger::thinger_message&, peer&) (thinger_controller.h:191)
+==6070==    by 0x11378A: thinger::thinger_controller::handle_request_received(thinger::thinger_message&, peer&) (thinger_controller.h:152)
+==6070==    by 0x1130DF: thinger::thinger_controller::handle_input(peer&) (thinger_controller.h:54)
+==6070==    by 0x1141D0: thinger_server::handle_client(peer&) (thinger_server.h:103)
+==6070==    by 0x114F92: thinger_server::start_server() (thinger_server.h:330)
+==6070==    by 0x113FE9: thinger_server::start() (thinger_server.h:47)
+==6070==    by 0x110942: main (main.cpp:7)
+==6070==  Block was alloc'd at
+==6070==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x110A31: protoson::dynamic_memory_allocator::allocate(unsigned long) (pson.h:69)
+==6070==    by 0x110C19: protoson::pson::allocate(unsigned long) (pson.h:378)
+==6070==    by 0x1112DC: protoson::pson_decoder::pb_read_varint(protoson::pson&) (pson.h:740)
+==6070==    by 0x1117D4: protoson::pson_decoder::decode(protoson::pson&) (pson.h:811)
+==6070==    by 0x111527: protoson::pson_decoder::decode(protoson::pson_pair&) (pson.h:774)
+==6070==    by 0x11138C: protoson::pson_decoder::decode(protoson::pson_object&, unsigned long) (pson.h:749)
+==6070==    by 0x11172A: protoson::pson_decoder::decode(protoson::pson&) (pson.h:800)
+==6070==    by 0x111527: protoson::pson_decoder::decode(protoson::pson_pair&) (pson.h:774)
+==6070==    by 0x11138C: protoson::pson_decoder::decode(protoson::pson_object&, unsigned long) (pson.h:749)
+==6070==    by 0x11172A: protoson::pson_decoder::decode(protoson::pson&) (pson.h:800)
+==6070==    by 0x112861: thinger::thinger_decoder::decode(thinger::thinger_message&, unsigned long) (thinger_decoder.hpp:78)
+==6070== 
+==6070== 
+==6070== HEAP SUMMARY:
+==6070==     in use at exit: 212 bytes in 2 blocks
+==6070==   total heap usage: 71 allocs, 70 frees, 74,920 bytes allocated
+==6070== 
+==6070== Searching for pointers to 2 not-freed blocks
+==6070== Checked 112,776 bytes
+==6070== 
+==6070== 20 bytes in 1 blocks are still reachable in loss record 1 of 2
+==6070==    at 0x4C31D2F: realloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x1140E3: thinger_server::write(char const*, unsigned long, bool) (thinger_server.h:76)
+==6070==    by 0x1125F2: thinger::thinger_write_encoder::write(void const*, unsigned long) (thinger_encoder.hpp:69)
+==6070==    by 0x111AAB: protoson::pson_encoder::pb_encode_string(char const*) (pson.h:901)
+==6070==    by 0x111A59: protoson::pson_encoder::pb_encode_string(char const*, unsigned int) (pson.h:895)
+==6070==    by 0x111D4F: protoson::pson_encoder::encode(protoson::pson&) (pson.h:960)
+==6070==    by 0x111C6A: protoson::pson_encoder::encode(protoson::pson_array&) (pson.h:947)
+==6070==    by 0x115849: void protoson::pson_encoder::pb_encode_submessage<protoson::pson_array>(protoson::pson_array&, unsigned int) (pson.h:911)
+==6070==    by 0x111E9D: protoson::pson_encoder::encode(protoson::pson&) (pson.h:981)
+==6070==    by 0x112508: thinger::thinger_encoder::encode(thinger::thinger_message&) (thinger_encoder.hpp:53)
+==6070==    by 0x113013: thinger::thinger_controller::send_message(thinger::thinger_message&) (thinger_controller.h:41)
+==6070==    by 0x113640: thinger::thinger_controller::request_client_resources(thinger::thinger_message&, peer&) (thinger_controller.h:145)
+==6070== 
+==6070== 192 bytes in 1 blocks are still reachable in loss record 2 of 2
+==6070==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x1168EC: __gnu_cxx::new_allocator<thinger_stream>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==6070==    by 0x1167CF: std::allocator_traits<std::allocator<thinger_stream> >::allocate(std::allocator<thinger_stream>&, unsigned long) (alloc_traits.h:436)
+==6070==    by 0x116603: std::_Vector_base<thinger_stream, std::allocator<thinger_stream> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==6070==    by 0x116059: void std::vector<thinger_stream, std::allocator<thinger_stream> >::_M_realloc_insert<thinger_stream const&>(__gnu_cxx::__normal_iterator<thinger_stream*, std::vector<thinger_stream, std::allocator<thinger_stream> > >, thinger_stream const&) (vector.tcc:406)
+==6070==    by 0x11597D: std::vector<thinger_stream, std::allocator<thinger_stream> >::push_back(thinger_stream const&) (stl_vector.h:948)
+==6070==    by 0x112CE6: peer::insert_stream(thinger_stream) (peer.hpp:57)
+==6070==    by 0x1135A2: thinger::thinger_controller::request_client_resources(thinger::thinger_message&, peer&) (thinger_controller.h:138)
+==6070==    by 0x1139D4: thinger::thinger_controller::handle_data_received(thinger::thinger_message&, peer&) (thinger_controller.h:191)
+==6070==    by 0x11378A: thinger::thinger_controller::handle_request_received(thinger::thinger_message&, peer&) (thinger_controller.h:152)
+==6070==    by 0x1130DF: thinger::thinger_controller::handle_input(peer&) (thinger_controller.h:54)
+==6070==    by 0x1141D0: thinger_server::handle_client(peer&) (thinger_server.h:103)
+==6070== 
+==6070== LEAK SUMMARY:
+==6070==    definitely lost: 0 bytes in 0 blocks
+==6070==    indirectly lost: 0 bytes in 0 blocks
+==6070==      possibly lost: 0 bytes in 0 blocks
+==6070==    still reachable: 212 bytes in 2 blocks
+==6070==         suppressed: 0 bytes in 0 blocks
+==6070== 
+==6070== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==6070== 
+==6070== 1 errors in context 1 of 1:
+==6070== Invalid free() / delete / delete[] / realloc()
+==6070==    at 0x4C30D3B: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x110A4F: protoson::dynamic_memory_allocator::deallocate(void*) (pson.h:73)
+==6070==    by 0x110B6A: protoson::pson::~pson() (pson.h:298)
+==6070==    by 0x110E16: protoson::pson_pair::~pson_pair() (pson.h:570)
+==6070==    by 0x1162C7: protoson::pson_container<protoson::pson_pair>::list_item::~list_item() (pson.h:112)
+==6070==    by 0x1162ED: void destroy<protoson::pson_container<protoson::pson_pair>::list_item>(protoson::pson_container<protoson::pson_pair>::list_item*, protoson::memory_allocator&) (pson.h:94)
+==6070==    by 0x115E39: protoson::pson_container<protoson::pson_pair>::clear() (pson.h:189)
+==6070==    by 0x11558D: protoson::pson_container<protoson::pson_pair>::~pson_container() (pson.h:159)
+==6070==    by 0x115279: protoson::pson_object::~pson_object() (pson.h:593)
+==6070==    by 0x11529F: void destroy<protoson::pson_object>(protoson::pson_object*, protoson::memory_allocator&) (pson.h:94)
+==6070==    by 0x110B1A: protoson::pson::~pson() (pson.h:294)
+==6070==    by 0x110E16: protoson::pson_pair::~pson_pair() (pson.h:570)
+==6070==  Address 0x5b7ebf0 is 0 bytes inside a block of size 1 free'd
+==6070==    at 0x4C30D3B: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x110A4F: protoson::dynamic_memory_allocator::deallocate(void*) (pson.h:73)
+==6070==    by 0x110B6A: protoson::pson::~pson() (pson.h:298)
+==6070==    by 0x11337F: thinger::thinger_controller::fill_stream(protoson::pson_object&, thinger_stream&) (thinger_controller.h:105)
+==6070==    by 0x11353F: thinger::thinger_controller::request_client_resources(thinger::thinger_message&, peer&) (thinger_controller.h:133)
+==6070==    by 0x1139D4: thinger::thinger_controller::handle_data_received(thinger::thinger_message&, peer&) (thinger_controller.h:191)
+==6070==    by 0x11378A: thinger::thinger_controller::handle_request_received(thinger::thinger_message&, peer&) (thinger_controller.h:152)
+==6070==    by 0x1130DF: thinger::thinger_controller::handle_input(peer&) (thinger_controller.h:54)
+==6070==    by 0x1141D0: thinger_server::handle_client(peer&) (thinger_server.h:103)
+==6070==    by 0x114F92: thinger_server::start_server() (thinger_server.h:330)
+==6070==    by 0x113FE9: thinger_server::start() (thinger_server.h:47)
+==6070==    by 0x110942: main (main.cpp:7)
+==6070==  Block was alloc'd at
+==6070==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6070==    by 0x110A31: protoson::dynamic_memory_allocator::allocate(unsigned long) (pson.h:69)
+==6070==    by 0x110C19: protoson::pson::allocate(unsigned long) (pson.h:378)
+==6070==    by 0x1112DC: protoson::pson_decoder::pb_read_varint(protoson::pson&) (pson.h:740)
+==6070==    by 0x1117D4: protoson::pson_decoder::decode(protoson::pson&) (pson.h:811)
+==6070==    by 0x111527: protoson::pson_decoder::decode(protoson::pson_pair&) (pson.h:774)
+==6070==    by 0x11138C: protoson::pson_decoder::decode(protoson::pson_object&, unsigned long) (pson.h:749)
+==6070==    by 0x11172A: protoson::pson_decoder::decode(protoson::pson&) (pson.h:800)
+==6070==    by 0x111527: protoson::pson_decoder::decode(protoson::pson_pair&) (pson.h:774)
+==6070==    by 0x11138C: protoson::pson_decoder::decode(protoson::pson_object&, unsigned long) (pson.h:749)
+==6070==    by 0x11172A: protoson::pson_decoder::decode(protoson::pson&) (pson.h:800)
+==6070==    by 0x112861: thinger::thinger_decoder::decode(thinger::thinger_message&, unsigned long) (thinger_decoder.hpp:78)
+==6070== 
+==6070== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

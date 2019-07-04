@@ -1,9 +1,6 @@
 Qplus - IoT.seluxit C++ client
 ===================================================
-
-[![Build Status](https://travis-ci.org/Seluxit/qplus.svg?branch=master)](https://travis-ci.org/Seluxit/qplus) 
-
-Copyright 2017 Seluxit A/S.
+Copyright 2019 Seluxit A/S.
 
 [https://iot.seluxit.com][iot.seluxit]
 
